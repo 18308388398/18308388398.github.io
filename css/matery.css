@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #1f8bac 100%, #2a8899 100%);
+    background-image: linear-gradient(to right, #3028a0 0%, #5e22ad 100%);
 }
 
 .text-color {
@@ -564,7 +564,7 @@ header .go-back i {
     display: block;
     left: 0;
     top: 0;
-    content: "";
+    content: ""; 
 }
 
 .bg-cover .container {
