@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #3028a0 0%, #5e22ad 100%);
+    background-image: linear-gradient(to right, #0fbde9 0%, #0fbde9 100%);
 }
 
 .text-color {
@@ -536,7 +536,7 @@ header .go-back i {
     height: 60vh;
     padding: 0;
     border: 0;
-    overflow: hidden;
+    overflow: visible;
     background-position: center center;
     background-size: cover;
     transform: translate3d(0px, 0px, 0px);
@@ -1968,7 +1968,7 @@ p.search-result-summary{
 }
 
 .center-caption {
-    color: #525f7f;
+    color: #000000;
     padding: 5px;
     border-bottom: 1px solid #d9d9d9;
 }
