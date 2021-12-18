@@ -6,7 +6,7 @@
   <link href="http://18308388398.github.io/atom.xml" rel="self"/>
   
   <link href="http://18308388398.github.io/"/>
-  <updated>2021-12-18T04:58:55.620Z</updated>
+  <updated>2021-12-18T07:32:37.862Z</updated>
   <id>http://18308388398.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从0开始搭建属于自己的网络博客</title>
+    <link href="http://18308388398.github.io/2021/12/1812859.html"/>
+    <id>http://18308388398.github.io/2021/12/1812859.html</id>
+    <published>2021-12-18T05:28:47.000Z</published>
+    <updated>2021-12-18T07:32:37.862Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;首先在搭建hexo博客之前我们需要的环境&lt;br&gt;我们需要先安装两个软件nodejs和Git。&lt;br&gt;nodejs搭建教程:&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="博客入门" scheme="http://18308388398.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="博客搭建" scheme="http://18308388398.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>hexoblog的常用语法从Hello World开始</title>
