@@ -620,20 +620,6 @@
 
 
 
-
-<style>
-    #index-video { z-index: -1; position: absolute; top: 0; left: 0; height: 100vh; width: 100%; object-fit: cover;}
-    @media only screen and (max-width: 760px) { #index-video { display: none;}}
-    @media only screen and (min-width: 760px) { .bg-cover { background-image: none!important;}}
-</style>
-<video id="index-video" autoplay loop muted>
-
-    <source src="https://www.bilibili.com/video/BV1VV411W7zg?from=search&amp;seid=11817561837076336748&amp;spm_id_from=333.337.0.0">
-
-    <source src="https://www.bilibili.com/video/BV15Q4y1o7gB?from=search&amp;seid=13269189255741786257&amp;spm_id_from=333.337.0.0">
-
-</video>
-
 <main class="content">
 
     
@@ -898,14 +884,14 @@ Bookmarks
     
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
+                   server="tencent"
                    type="playlist"
                    id="503838841"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
                    loop='all'
-                   order='random'
+                   order='list'
                    preload='auto'
                    volume='0.7'
                    list-folded='true'
@@ -964,8 +950,8 @@ Bookmarks
                         var startMonth = "12";
                         var startDate = "16";
                         var startHour = "19";
-                        var startMinute = "0";
-                        var startSecond = "0";
+                        var startMinute = "10";
+                        var startSecond = "25";
                         var todayYear = today.getFullYear(2021);
                         var todayMonth = today.getMonth(12) + 1;
                         var todayDate = today.getDate(8);
