@@ -500,7 +500,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/5.jpg)');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/6.jpg)');
 </script>
 
 
@@ -964,11 +964,11 @@ Bookmarks
                         var startHour = "19";
                         var startMinute = "0";
                         var startSecond = "0";
-                        var todayYear = today.getFullYear();
-                        var todayMonth = today.getMonth() + 1;
-                        var todayDate = today.getDate();
-                        var todayHour = today.getHours();
-                        var todayMinute = today.getMinutes();
+                        var todayYear = today.getFullYear(2021);
+                        var todayMonth = today.getMonth(12) + 1;
+                        var todayDate = today.getDate(8);
+                        var todayHour = today.getHours(8);
+                        var todayMinute = today.getMinutes(42);
                         var todaySecond = today.getSeconds();
                         var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
                         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
