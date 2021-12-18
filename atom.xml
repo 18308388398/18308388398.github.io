@@ -6,7 +6,7 @@
   <link href="http://18308388398.github.io/atom.xml" rel="self"/>
   
   <link href="http://18308388398.github.io/"/>
-  <updated>2021-12-16T10:16:52.896Z</updated>
+  <updated>2021-12-18T04:58:55.620Z</updated>
   <id>http://18308388398.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
+    <title>hexoblog的常用语法从Hello World开始</title>
     <link href="http://18308388398.github.io/2021/12/1616107.html"/>
     <id>http://18308388398.github.io/2021/12/1616107.html</id>
     <published>2021-12-16T12:31:36.736Z</published>
-    <updated>2021-12-16T10:16:52.896Z</updated>
+    <updated>2021-12-18T04:58:55.620Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    <category term="博客入门" scheme="http://18308388398.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="hexoblog的常用语法" scheme="http://18308388398.github.io/tags/hexoblog%E7%9A%84%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
