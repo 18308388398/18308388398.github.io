@@ -35,7 +35,7 @@
 
 body {
     /* background-color: #eaeaea; */
-    background: linear-gradient(60deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0)) 0% 0% / cover,  url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2F00.minipic.eastday.com%2F20150822%2F20150822154836_49ef9bb8ca5f75343fc80104e8e79e0b_32.jpeg&refer=http%3A%2F%2F00.minipic.eastday.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642601571&t=1e270e23dd8cdf0e2f9f700f80239519") 0px 0px;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0)) 0% 0% / cover,  url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F69bf8b18b765eacfa78d7c4afa037f57e6ca0d61.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642604267&t=be8d1ed52e6426b2d5bf2399530c19ee") 0px 0px;
     background-attachment: fixed;
     margin: 0;
     color: #000000;
