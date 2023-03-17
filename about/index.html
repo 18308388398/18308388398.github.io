@@ -743,7 +743,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"博客入门","value":2},{"name":"人物简介","value":2},{"name":"文学政治","value":1},{"name":"文学朗诵","value":1},{"name":"资源整理","value":3},{"name":"诗词","value":1}],
+                data: [{"name":"博客入门","value":2},{"name":"人物简介","value":2},{"name":"文学政治","value":1},{"name":"资源整理","value":3},{"name":"文学朗诵","value":1},{"name":"诗词","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -767,7 +767,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["偶像","资源整理","hexoblog的常用语法","圭臬","博客搭建","诗和远方","web","诗词"]
+                data: ["偶像","资源整理","hexoblog的常用语法","圭臬","博客搭建","诗和远方","诗词","web"]
             }
         ],
         yAxis: [
@@ -974,26 +974,26 @@
             
             
             
-            <a href="/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/">
-                <span class="chip center-align waves-effect waves-light chip-default">诗和远方</span>
-            </a>
-            
-            
-            
             <a href="/tags/%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/">
                 <span class="chip center-align waves-effect waves-light chip-default">资源整理</span>
             </a>
             
             
             
-            <a href="/tags/web/">
-                <span class="chip center-align waves-effect waves-light chip-default">web</span>
+            <a href="/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/">
+                <span class="chip center-align waves-effect waves-light chip-default">诗和远方</span>
             </a>
             
             
             
             <a href="/tags/%E8%AF%97%E8%AF%8D/">
                 <span class="chip center-align waves-effect waves-light chip-default">诗词</span>
+            </a>
+            
+            
+            
+            <a href="/tags/web/">
+                <span class="chip center-align waves-effect waves-light chip-default">web</span>
             </a>
             
             
@@ -1375,34 +1375,6 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
-    
-        <script src="//code.tidio.co/bywxpmqmxqbiafkkmeyomgg5zpziwffg.js"></script>
-        <script>
-            $(document).ready(function () {
-                setInterval(change_Tidio, 50);
-                function change_Tidio() {
-                    var tidio=$("#tidio-chat iframe");
-                    if(tidio.css("display")=="block"&& $(window).width()>977 ){
-                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"85px":"20px";
-                        document.getElementById("tidio-chat-iframe").style.right="-15px";
-                        document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
-                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
-                    }
-                    else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
-                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;
-                        document.getElementById("tidio-chat-iframe").style.right="-15px";
-                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
-                    }
-                    else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
-                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;
-                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
-                    }
-                    if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
-                        document.getElementById("tidio-chat-iframe").style.zIndex="998";
-                    }
-                }
-            });
-        </script>
     
 
     
